@@ -9,3 +9,11 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return array;
 }
+
+function johnLennonFacts(array) {
+  var new_arr = [];
+  for (let i = 0; i < array.length; i++) {
+    new_arr.push(array[i] + "!!!");
+  }
+  return new_arr;
+}
